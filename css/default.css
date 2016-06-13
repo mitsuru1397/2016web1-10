@@ -45,7 +45,7 @@ footer{
 }
 
 /* 1025px以上*/
-@media screen and (min width: 1025px){
+@media screen and (min-width: 1025px){
   #main{
     max-width: 1024px; /*最長の幅を設定*/
     margin: auto; /*中央揃え*/
