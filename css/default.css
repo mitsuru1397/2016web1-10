@@ -29,14 +29,6 @@ footer{
   text-align: center;
 }
 
-/* 640px以下 */
-/*
-@media screen and(max-width:640px){
-  body{
-    background-color: red;
-  }
-}
-*/
 
 /*641px以上*/
 @media screen and (min-width:641px){
@@ -52,24 +44,27 @@ footer{
   }
 }
 
-
-/* 640px以上 980px以下 */
-/*
-@media screen and (min-width:641px) and (max-width:980px){
-  body{
-    baxkground-color:green;
+/* 1025px以上*/
+@media screen and (min width: 1025px){
+  #main{
+    max-width: 1024px; /*最長の幅を設定*/
+    margin: auto; /*中央揃え*/
+  }
+  sction{
+    width: calc(70% - 20px); /*paddingを抜いて70%の幅とする*/
+    float:left; /*#mainの右側に回り込む*/
+  }
+  aside{
+    width: calc(100% - 20px); /*paddingを考慮して幅を決める */
+  }
+  #main:after{
+    /*footerを下に回り込ませる*/
+    /*clearfix*/
+    content;"";
+    display:block;
+    clear:both;
   }
 }
-*/
-
-/*981px以上*/
-/*
-@media screen and(min-width:981px){
-  body{
-    background-color:blue;
-  }
-}
-*/
 
 @media screen and (orientation:portrait){
   body:afte{
