@@ -5,3 +5,24 @@
 margin:0
 padding:0
 }
+
+/* 640px以下 */
+@media screen and(max-width:640px){
+  body{
+    background-color: red;
+  }
+}
+
+/* 640px以上 980px以下 */
+@media screen and (min-width:641px) and (max-width:980px){
+  body{
+    baxkground-color:green;
+  }
+}
+
+/*981px以上*/
+@media screen and(min-width:981px){
+  body{
+    background-color:blue;
+  }
+}
