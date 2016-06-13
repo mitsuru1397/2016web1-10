@@ -56,7 +56,7 @@ footer{
   }
   #side{
     width: calc(1024px - 718px);/*mainの幅を引いて幅を決定 */
-    float:right;/*#mainの右側に回り込む*/
+    float:left;/*#mainの右側に回り込む*/
   }
   aside{
     width: calc(100% - 20px); /*paddingを考慮して幅を決める */
