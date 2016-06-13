@@ -50,7 +50,7 @@ footer{
     max-width: 1024px; /*最長の幅を設定*/
     margin: auto; /*中央揃え*/
   }
-  sction{
+  section{
     width: calc(70% - 20px); /*paddingを抜いて70%の幅とする*/
     float:left; /*左側に置く*/
   }
