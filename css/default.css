@@ -64,7 +64,7 @@ footer{
   #main:after{
     /*footerを下に回り込ませる*/
     /*clearfix*/
-    content;"";
+    content:"";
     display:block;
     clear:both;
   }
