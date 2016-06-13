@@ -30,25 +30,46 @@ footer{
 }
 
 /* 640px以下 */
+/*
 @media screen and(max-width:640px){
   body{
     background-color: red;
   }
 }
+*/
+
+/*641px以上*/
+@media screen and (min-width:641px){
+  aside{
+    width: calc(50% - 20px);
+   float:left;
+  }
+  #side:after{
+    /* clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+  }
+}
+
 
 /* 640px以上 980px以下 */
+/*
 @media screen and (min-width:641px) and (max-width:980px){
   body{
     baxkground-color:green;
   }
 }
+*/
 
 /*981px以上*/
+/*
 @media screen and(min-width:981px){
   body{
     background-color:blue;
   }
 }
+*/
 
 @media screen and (orientation:portrait){
   body:afte{
